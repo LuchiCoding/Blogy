@@ -14,9 +14,9 @@
     "lodash": "^4.17.21",
     "mongod": "^2.0.0",
     "mongoose": "^7.0.4",
-    "mongosh": "^0.0.1"
+    "mongosh": "^0.0.1",
+    "node": "^19.8.1"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
