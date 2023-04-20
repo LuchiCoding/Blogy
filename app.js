@@ -88,7 +88,7 @@ app.get('/posts/:postTitle', (req, res) => {
 
 
 
-
+mongoose.connection.close()
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running at port 3000");
