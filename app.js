@@ -2,6 +2,7 @@
 
 const express = require("express");
 const mongoose= require("mongoose")
+const http= require("https")
 
 const ejs = require("ejs");
 var _ = require('lodash');
@@ -89,6 +90,6 @@ app.get('/posts/:postTitle', (req, res) => {
 
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server is running at port 3000");
 });
